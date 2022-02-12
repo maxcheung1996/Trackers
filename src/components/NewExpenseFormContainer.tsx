@@ -17,10 +17,6 @@ const NewExpenseFormContainer: React.FC<ContainerProps> = ({ name }) => {
   return (
     <IonPage>
       <IonContent>
-        <IonItem>
-          <IonLabel position="floating">Username</IonLabel>
-          <IonInput />
-        </IonItem>
         <form className="ion-padding">
           <IonItem>
             <IonLabel position="floating">Username</IonLabel>

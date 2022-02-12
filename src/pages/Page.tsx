@@ -5,6 +5,7 @@ import ExpenseContainer from '../components/ExpenseContainer';
 import TrackerContainer from '../components/TrackerContainer';
 import ProfileContainer from '../components/ProfileContainer';
 import './Page.css';
+import NewExpenseFormContainer from '../components/NewExpenseFormContainer';
 
 const Page: React.FC = () => {
 
@@ -43,6 +44,9 @@ const switchSideMenu = (name : string) => {
         break;
         case "Profile":
         return <ProfileContainer name={name}/>
+        break;
+        case "NewExpenseFormContainer":
+        return <NewExpenseFormContainer name={name}/>
         break;
     }
   }

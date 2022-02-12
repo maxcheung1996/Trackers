@@ -72,7 +72,7 @@ const ExpenseContainer: React.FC<ContainerProps> = ({ name }) => {
           <IonItem>
             <IonIcon icon={createOutline} slot="start" />
             <IonButton
-              routerLink="/NewExpenseFormContainer"
+              routerLink="/page/NewExpenseFormContainer"
               routerDirection="forward"
               fill="outline"
             >
