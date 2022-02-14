@@ -30,6 +30,7 @@ import {
 } from "ionicons/icons";
 import { HistoryContainer } from "./HistoryContainer";
 import NewExpenseFormContainer from "./NewExpenseFormContainer";
+import { Link } from "react-router-dom";
 
 interface ContainerProps {
   name: string;
@@ -76,8 +77,9 @@ const ExpenseContainer: React.FC<ContainerProps> = ({ name }) => {
               routerDirection="forward"
               fill="outline"
             >
-              Create here to create a new Expense
+              Create a new Expense
             </IonButton>
+        
           </IonItem>
         </IonCard>
         <HistoryContainer />
